@@ -1,0 +1,19 @@
+{
+  "name": "hipa-lab-website",
+  "version": "1.0.0",
+  "description": "High Performance Alloys Lab Website",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCLiu518/hipa-lab-website.git"
+  },
+  "author": "LIU Hung-Chih",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HCLiu518/hipa-lab-website/issues"
+  },
+  "homepage": "https://github.com/HCLiu518/hipa-lab-website#readme"
+}
