@@ -13,3 +13,7 @@ function scrollFunction() {
         elNav.className = "navbar fixed-top navbar-expand-sm navbar-dark bg-dark";
     }
 }
+
+function paperClick(url) {
+    window.open(url, "new-tab");
+}
