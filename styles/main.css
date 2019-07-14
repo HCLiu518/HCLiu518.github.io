@@ -50,6 +50,12 @@ nav {
     transition: 1s;
 }
 
+@media (max-width: 767px){
+    #banner{
+        background-image: url("../images/banner-1-mobile.jpg");
+    }
+}
+
 @media (max-width: 575px){
     #banner{
         background-attachment: scroll;

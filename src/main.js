@@ -24,10 +24,16 @@ function paperClick(url) {
 function bgSlide() {
     setTimeout(function(){
         if(flag){
-            el.style.backgroundImage = "url('./images/banner-2.jpg')";
+            if(window.innerWidth > 767)
+                el.style.backgroundImage = "url('./images/banner-2.jpg')";
+            else
+                el.style.backgroundImage = "url('./images/banner-2-mobile.jpg')";
             flag = 0;
         }else{
-            el.style.backgroundImage = "url('./images/banner-1.jpg')";
+            if(window.innerWidth > 767)
+                el.style.backgroundImage = "url('./images/banner-1.jpg')";
+            else
+                el.style.backgroundImage = "url('./images/banner-1-mobile.jpg')";
             flag = 1;
         }
         bgSlide();
