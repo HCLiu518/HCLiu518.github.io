@@ -137,6 +137,14 @@ section h2 {
 footer {
     margin-top: 4rem;
     background-color: #f7f7f7;
-    padding: 4rem;
+    padding: 1rem;
     color: gray;
+}
+
+footer section{
+    margin-top: 2rem;
+}
+
+#copyright {
+    margin: 0;
 }
