@@ -155,3 +155,7 @@ footer section{
 #copyright {
     margin: 0;
 }
+
+tbody {
+    cursor: pointer;
+}
