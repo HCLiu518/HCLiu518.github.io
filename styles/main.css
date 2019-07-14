@@ -159,3 +159,13 @@ footer section{
 tbody {
     cursor: pointer;
 }
+
+a.arrow:link{
+  color:white;
+}
+a.arrow:visited{
+  color:white;
+}
+a.arrow:hover{
+  color: rgb(186, 186, 186);
+}
