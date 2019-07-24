@@ -41,7 +41,7 @@ function bgSlide() {
             else
                 el.style.backgroundImage = "url('./images/banner-2-mobile.jpg')";
             flag++;
-        }else if(flag == 2){
+        }/*else if(flag == 2){
             if(window.innerWidth > 767)
                 el.style.backgroundImage = "url('./images/banner-3.jpg')";
             else
@@ -65,7 +65,7 @@ function bgSlide() {
             else
                 el.style.backgroundImage = "url('./images/banner-6-mobile.jpg')";
             flag++;
-        }
+        }*/
         bgSlide();
     }, 10000);
 }
@@ -86,7 +86,7 @@ function preloader() {
         document.getElementById("p12").style.background = "url('./images/banner-1-mobile.jpg') no-repeat";
         document.getElementById("p13").style.background = "url('./images/banner-2.jpg') no-repeat";
         document.getElementById("p14").style.background = "url('./images/banner-2-mobile.jpg') no-repeat";
-        document.getElementById("p15").style.background = "url('./images/banner-3.jpg') no-repeat";
+        /*document.getElementById("p15").style.background = "url('./images/banner-3.jpg') no-repeat";
         document.getElementById("p16").style.background = "url('./images/banner-3-mobile.jpg') no-repeat";
         document.getElementById("p17").style.background = "url('./images/banner-4.jpg') no-repeat";
         document.getElementById("p18").style.background = "url('./images/banner-4-mobile.jpg') no-repeat";
@@ -94,7 +94,7 @@ function preloader() {
         document.getElementById("p20").style.background = "url('./images/banner-5-mobile.jpg') no-repeat";
         document.getElementById("p21").style.background = "url('./images/banner-6.jpg') no-repeat";
         document.getElementById("p22").style.background = "url('./images/banner-6-mobile.jpg') no-repeat";
-    }
+    */ }
 }
 
 function addLoadEvent(func) {
