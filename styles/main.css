@@ -170,3 +170,7 @@ a.arrow:visited{
 a.arrow:hover{
   color: rgb(186, 186, 186);
 }
+
+.members-img img {
+    border-radius: 2rem;
+}
